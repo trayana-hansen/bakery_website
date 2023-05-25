@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.scss";
 
-
 const Footer = () => {
   return (
     <footer className="mainFooter">
@@ -12,7 +11,7 @@ const Footer = () => {
         <h3>bageriet</h3>
         <p>
           Der er mange tilgængelige udgaver af Lorem Ipsum, men det fleste
-          udgaver har gennemgået forandringer.
+          udgaver har <br /> gennemgået forandringer.
         </p>
         <div className="shadow">
           <p>Copyright © 2017 bageriet aps</p>
