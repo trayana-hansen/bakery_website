@@ -1,7 +1,13 @@
-import Header from "./Components/Partials/Header/Header";
+import Home from "./Components/Pages/Home/Home";
+import Footer from "./Components/Partials/Footer/Footer";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Home />;
+      <Footer />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,22 @@
+@use "../Fonts/Fonts.scss";
+h3 {
+  font-family: "Lobster", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  font-weight: 300;
+}
+
+.container {
+  background-color: #252525;
+  p {
+    text-align: center;
+    font-family: "Open-sans", sans-serif;
+    color: #727272;
+    font-weight: light;
+  }
+}
+
+.shadow {
+  background-color: #0e0e0e;
+}
