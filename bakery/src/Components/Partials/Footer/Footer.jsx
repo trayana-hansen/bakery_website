@@ -1,11 +1,16 @@
 import React from "react";
 import "./Footer.scss";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Footer = () => {
   return (
     <footer className="mainFooter">
-      <div className="circle">
-        <img src={require("../../../Images/chevron.png")} alt="arrow" />
+      <div className="arrowContainer">
+        <div className="circle">
+          <a href="#top">
+            <IoIosArrowUp size={70} color="black" />
+          </a>
+        </div>
       </div>
       <div className="container">
         <h3>bageriet</h3>

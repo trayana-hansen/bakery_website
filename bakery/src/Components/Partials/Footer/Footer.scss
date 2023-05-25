@@ -1,36 +1,50 @@
 @use "../Fonts/Fonts.scss";
 
 .mainFooter {
-  .circle {
-    border-radius: 25%;
-    background-color: white;
-    max-width: 10%;
-    height: auto;
-    
-
+  .arrowContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3.5vh;
+    .circle {
+      background-color: whitesmoke;
+      width: 3.1em;
+      height: 3.1em;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
+
   h3 {
+    font-size: 3em;
+    font-weight: 300;
+    color: white;
     font-family: "Lobster", sans-serif;
     text-align: center;
-    font-size: 2em;
-    color: white;
-    font-weight: 300;
-    padding-top: 1em;
+    padding-top: 1.3em;
+    padding-bottom: 0.5em;
+    margin: 0;
   }
 
   .container {
     background-color: #252525;
+    margin: 0;
     p {
-      text-align: center;
-      font-family: "Open-sans", sans-serif;
       color: #727272;
-      font-weight: light;
       padding: 0 0 1.2em 0;
+      font-weight: light;
+      text-align: center;
+      font-family: "Open-Sans", sans-serif;
     }
   }
 
   .shadow {
     padding: 1em 0 0.5em 0;
-    background-color: #0e0e0e;
+    background-color: #0a0a0a;
+    p {
+      margin: 0;
+    }
   }
 }
