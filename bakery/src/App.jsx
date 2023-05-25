@@ -1,10 +1,10 @@
-import Home from "./Components/Pages/Home/Home";
+import AppRouter from "./Components/Routing/AppRouter";
 import Footer from "./Components/Partials/Footer/Footer";
 
 function App() {
   return (
     <>
-      <Home />;
+      <AppRouter />;
       <Footer />
     </>
   );
